@@ -8,6 +8,9 @@ sketch = Framer.Importer.load("imported/Global Sections Version History @1x")
 
 {artboard, versionHistoryBar, topBarGlobal, topBar, scrollers, backZone, versionActive, version1Zone, version1Hover, version1, version2Zone, version2Hover, version2, version3Zone, version3Hover, version3, version4Zone, version4Hover, version4, version5Zone, version5Hover, version5, version6Zone, version6Hover, version6, editState, section, sectionEdit, sectionControl, sectionControlEdit, sectionHover, moreShit, dropdown, toolbar, editClick, editingToolbar1, editingToolbar2, dropdownEdit, moreShitEdit, editSection1, editSection2, editSection3, editOpacity, editClick1, versionClick, toolbarEdit, btnCancel1, btnCancel2, btnApply1, btnApply2, bg3, toolbarEditBack} = sketch
 
+artboard.x = Align.center
+
+
 scroll = ScrollComponent.wrap(scrollers)
 scroll.scrollVertical = true
 scroll.scrollHorizontal = false
