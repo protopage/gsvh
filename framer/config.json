@@ -1,0 +1,18 @@
+{
+  "propertyPanelToggleStates" : {
+
+  },
+  "deviceOrientation" : 0,
+  "sharedPrototype" : 0,
+  "contentScale" : 1,
+  "deviceType" : "fullscreen",
+  "selectedHand" : "",
+  "updateDelay" : 0.3,
+  "deviceScale" : 1,
+  "foldedCodeRanges" : [
+    "{0, 149}",
+    "{1165, 1405}"
+  ],
+  "orientation" : 0,
+  "projectId" : "5030876E-C40B-4776-9A0C-A630FA686CE1"
+}
