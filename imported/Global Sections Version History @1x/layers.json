@@ -36,12 +36,12 @@
 				"originalName": "toolbarEdit",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -6,
+					"x": -4,
 					"y": 0,
-					"width": 1452,
-					"height": 222
+					"width": 1448,
+					"height": 219
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -164,12 +164,12 @@
 				"originalName": "versionHistoryBar",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -6,
+					"x": -4,
 					"y": 0,
-					"width": 1452,
-					"height": 127
+					"width": 1448,
+					"height": 124
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -210,7 +210,7 @@
 						"layerFrame": {
 							"x": 30,
 							"y": 58,
-							"width": 131,
+							"width": 124,
 							"height": 35
 						},
 						"visible": true,
@@ -222,7 +222,7 @@
 							"frame": {
 								"x": 30,
 								"y": 58,
-								"width": 131,
+								"width": 124,
 								"height": 35
 							}
 						},
@@ -237,7 +237,7 @@
 						"layerFrame": {
 							"x": 1008,
 							"y": 58,
-							"width": 131,
+							"width": 125,
 							"height": 35
 						},
 						"visible": true,
@@ -254,7 +254,7 @@
 								"layerFrame": {
 									"x": 1008,
 									"y": 58,
-									"width": 131,
+									"width": 125,
 									"height": 35
 								},
 								"visible": true,
@@ -266,7 +266,7 @@
 									"frame": {
 										"x": 1008,
 										"y": 58,
-										"width": 131,
+										"width": 125,
 										"height": 35
 									}
 								},
@@ -281,7 +281,7 @@
 								"layerFrame": {
 									"x": 1008,
 									"y": 58,
-									"width": 131,
+									"width": 125,
 									"height": 35
 								},
 								"visible": true,
@@ -293,7 +293,7 @@
 									"frame": {
 										"x": 1008,
 										"y": 58,
-										"width": 131,
+										"width": 125,
 										"height": 35
 									}
 								},
@@ -310,7 +310,7 @@
 						"layerFrame": {
 							"x": 845,
 							"y": 58,
-							"width": 131,
+							"width": 124,
 							"height": 35
 						},
 						"visible": true,
@@ -327,7 +327,7 @@
 								"layerFrame": {
 									"x": 845,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -339,7 +339,7 @@
 									"frame": {
 										"x": 845,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -354,7 +354,7 @@
 								"layerFrame": {
 									"x": 845,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -366,7 +366,7 @@
 									"frame": {
 										"x": 845,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -383,7 +383,7 @@
 						"layerFrame": {
 							"x": 682,
 							"y": 58,
-							"width": 131,
+							"width": 124,
 							"height": 35
 						},
 						"visible": true,
@@ -400,7 +400,7 @@
 								"layerFrame": {
 									"x": 682,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -412,7 +412,7 @@
 									"frame": {
 										"x": 682,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -427,7 +427,7 @@
 								"layerFrame": {
 									"x": 682,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -439,7 +439,7 @@
 									"frame": {
 										"x": 682,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -456,7 +456,7 @@
 						"layerFrame": {
 							"x": 519,
 							"y": 58,
-							"width": 131,
+							"width": 125,
 							"height": 35
 						},
 						"visible": true,
@@ -473,7 +473,7 @@
 								"layerFrame": {
 									"x": 519,
 									"y": 58,
-									"width": 131,
+									"width": 125,
 									"height": 35
 								},
 								"visible": true,
@@ -485,7 +485,7 @@
 									"frame": {
 										"x": 519,
 										"y": 58,
-										"width": 131,
+										"width": 125,
 										"height": 35
 									}
 								},
@@ -500,7 +500,7 @@
 								"layerFrame": {
 									"x": 519,
 									"y": 58,
-									"width": 131,
+									"width": 125,
 									"height": 35
 								},
 								"visible": true,
@@ -512,7 +512,7 @@
 									"frame": {
 										"x": 519,
 										"y": 58,
-										"width": 131,
+										"width": 125,
 										"height": 35
 									}
 								},
@@ -529,7 +529,7 @@
 						"layerFrame": {
 							"x": 356,
 							"y": 58,
-							"width": 131,
+							"width": 124,
 							"height": 35
 						},
 						"visible": true,
@@ -546,7 +546,7 @@
 								"layerFrame": {
 									"x": 356,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -558,7 +558,7 @@
 									"frame": {
 										"x": 356,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -573,7 +573,7 @@
 								"layerFrame": {
 									"x": 356,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -585,7 +585,7 @@
 									"frame": {
 										"x": 356,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},

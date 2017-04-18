@@ -37,12 +37,12 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 				"originalName": "toolbarEdit",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -6,
+					"x": -4,
 					"y": 0,
-					"width": 1452,
-					"height": 222
+					"width": 1448,
+					"height": 219
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -165,12 +165,12 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 				"originalName": "versionHistoryBar",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -6,
+					"x": -4,
 					"y": 0,
-					"width": 1452,
-					"height": 127
+					"width": 1448,
+					"height": 124
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -211,7 +211,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 30,
 							"y": 58,
-							"width": 131,
+							"width": 124,
 							"height": 35
 						},
 						"visible": true,
@@ -223,7 +223,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 							"frame": {
 								"x": 30,
 								"y": 58,
-								"width": 131,
+								"width": 124,
 								"height": 35
 							}
 						},
@@ -238,7 +238,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 1008,
 							"y": 58,
-							"width": 131,
+							"width": 125,
 							"height": 35
 						},
 						"visible": true,
@@ -255,7 +255,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 1008,
 									"y": 58,
-									"width": 131,
+									"width": 125,
 									"height": 35
 								},
 								"visible": true,
@@ -267,7 +267,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 1008,
 										"y": 58,
-										"width": 131,
+										"width": 125,
 										"height": 35
 									}
 								},
@@ -282,7 +282,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 1008,
 									"y": 58,
-									"width": 131,
+									"width": 125,
 									"height": 35
 								},
 								"visible": true,
@@ -294,7 +294,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 1008,
 										"y": 58,
-										"width": 131,
+										"width": 125,
 										"height": 35
 									}
 								},
@@ -311,7 +311,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 845,
 							"y": 58,
-							"width": 131,
+							"width": 124,
 							"height": 35
 						},
 						"visible": true,
@@ -328,7 +328,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 845,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -340,7 +340,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 845,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -355,7 +355,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 845,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -367,7 +367,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 845,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -384,7 +384,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 682,
 							"y": 58,
-							"width": 131,
+							"width": 124,
 							"height": 35
 						},
 						"visible": true,
@@ -401,7 +401,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 682,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -413,7 +413,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 682,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -428,7 +428,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 682,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -440,7 +440,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 682,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -457,7 +457,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 519,
 							"y": 58,
-							"width": 131,
+							"width": 125,
 							"height": 35
 						},
 						"visible": true,
@@ -474,7 +474,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 519,
 									"y": 58,
-									"width": 131,
+									"width": 125,
 									"height": 35
 								},
 								"visible": true,
@@ -486,7 +486,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 519,
 										"y": 58,
-										"width": 131,
+										"width": 125,
 										"height": 35
 									}
 								},
@@ -501,7 +501,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 519,
 									"y": 58,
-									"width": 131,
+									"width": 125,
 									"height": 35
 								},
 								"visible": true,
@@ -513,7 +513,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 519,
 										"y": 58,
-										"width": 131,
+										"width": 125,
 										"height": 35
 									}
 								},
@@ -530,7 +530,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 356,
 							"y": 58,
-							"width": 131,
+							"width": 124,
 							"height": 35
 						},
 						"visible": true,
@@ -547,7 +547,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 356,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -559,7 +559,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 356,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
@@ -574,7 +574,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 356,
 									"y": 58,
-									"width": 131,
+									"width": 124,
 									"height": 35
 								},
 								"visible": true,
@@ -586,7 +586,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 									"frame": {
 										"x": 356,
 										"y": 58,
-										"width": 131,
+										"width": 124,
 										"height": 35
 									}
 								},
