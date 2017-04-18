@@ -155,6 +155,7 @@ btnApply1.onClick ->
 	editingToolbar2.visible = true
 
 btnApply2.onClick ->
+	versionHistoryBar.visible = false
 	toolbarEdit.visible = false
 	descend.start()
 	toolbarFadeOut2.start()

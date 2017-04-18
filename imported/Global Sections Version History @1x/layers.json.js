@@ -5,7 +5,12 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 		"kind": "artboard",
 		"name": "artboard",
 		"originalName": "artboard",
-		"maskFrame": null,
+		"maskFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 1440,
+			"height": 3590
+		},
 		"layerFrame": {
 			"x": 316,
 			"y": -1169,
@@ -15,6 +20,15 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 		"visible": true,
 		"metadata": {},
 		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"image": {
+			"path": "images/Layer-artboard-otaxmte0.png",
+			"frame": {
+				"x": 316,
+				"y": -1169,
+				"width": 1440,
+				"height": 3577
+			}
+		},
 		"children": [
 			{
 				"objectId": "AF036766-FAED-4F52-A6DB-F5F7E7329598",
@@ -23,12 +37,12 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 				"originalName": "toolbarEdit",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -4,
+					"x": -6,
 					"y": 0,
-					"width": 1448,
-					"height": 219
+					"width": 1452,
+					"height": 222
 				},
-				"visible": true,
+				"visible": false,
 				"metadata": {
 					"opacity": 1
 				},
@@ -151,12 +165,12 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 				"originalName": "versionHistoryBar",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -4,
+					"x": -6,
 					"y": 0,
-					"width": 1448,
-					"height": 124
+					"width": 1452,
+					"height": 127
 				},
-				"visible": true,
+				"visible": false,
 				"metadata": {
 					"opacity": 1
 				},
@@ -1607,7 +1621,7 @@ window.__imported__["Global Sections Version History @1x/layers.json.js"] = [
 										"maskFrame": {
 											"x": 0,
 											"y": 0,
-											"width": 237.53947969866385,
+											"width": 237.5394796986639,
 											"height": 126
 										},
 										"layerFrame": {
