@@ -171,6 +171,7 @@ btnApply2.onClick ->
 
 
 versionClick.onClick ->
+	toolbarEdit.visible = false
 	versionHistoryBar.visible = true
 
 backZone.onClick ->
@@ -197,6 +198,7 @@ version1Zone.onClick ->
 
 editClick.onClick ->
 	toolbarEdit.visible = true
+	versionHistoryBar.visible = false
 
 toolbarEditBack.onClick ->
 	toolbarEdit.visible = false
