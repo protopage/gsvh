@@ -157,6 +157,7 @@ btnApply1.onClick ->
 btnApply2.onClick ->
 	versionHistoryBar.visible = false
 	topBarGlobal.visible = false
+	topBar.visible = true
 	toolbarEdit.visible = false
 	descend.start()
 	toolbarFadeOut2.start()

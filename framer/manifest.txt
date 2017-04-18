@@ -100,8 +100,6 @@
 .git/refs/heads/master
 .git/refs/remotes/origin/master
 app.coffee
-framer/backups/backup-2017-04-17 14.58.01.coffee
-framer/backups/backup-2017-04-17 14.59.01.coffee
 framer/backups/backup-2017-04-17 15.00.01.coffee
 framer/backups/backup-2017-04-17 15.01.01.coffee
 framer/backups/backup-2017-04-17 15.03.01.coffee
@@ -121,6 +119,8 @@ framer/backups/backup-2017-04-17 15.47.14.coffee
 framer/backups/backup-2017-04-17 15.49.14.coffee
 framer/backups/backup-2017-04-17 15.50.14.coffee
 framer/backups/backup-2017-04-18 14.25.01.coffee
+framer/backups/backup-2017-04-18 14.29.01.coffee
+framer/backups/backup-2017-04-18 14.31.01.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
