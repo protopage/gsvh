@@ -68,11 +68,20 @@ sectionHover.onClick ->
 	if dropdown.visible is true
 		dropdown.visible = false
 
+versionActive.on "mouseenter", ->
+	document.body.style.cursor = "pointer"
+
+versionActive.on "mouseleave", ->
+	document.body.style.cursor = "auto"
+
+
 # Edit State
 
 bg3.visible = false
 versionHistoryBar.visible = false
 
+
+state = null
 
 sectionEdit.originY = 0
 sectionEdit.originX = 0.5
@@ -118,7 +127,6 @@ shadowDown = new Animation sectionEdit,
 	shadowColor: "rgba(0,0,0,0)"
 
 editClick1.onClick ->
-	
 	editingToolbar1.visible = true
 	editingToolbar2.visible = false
 	editState.visible = true
@@ -138,8 +146,11 @@ btnCancel1.onClick ->
 	descend.start()
 	toolbarFadeOut1.start()
 	shadowDown.start()
-	if editSection3.visible is true and applied == 1
+	if state == 'section3'
 		bg3.visible = true
+		editSection1.visible = false
+		editSection2.visible = false
+		editSection3.visible = true
 	else 
 		bg3.visible = false
 		editSection1.visible = true
@@ -172,8 +183,11 @@ btnApply2.onClick ->
 	applied = 1
 	if editSection3.visible is true
 		bg3.visible = true
+		state = 'section3'
 	else 
 		bg3.visible = false
+		state = 'section1'
+		
 
 
 versionClick.onClick ->
@@ -210,6 +224,11 @@ toolbarEditBack.onClick ->
 	toolbarEdit.visible = false
 
 versionActive.onClick ->
-	editSection2.visible = true
-	editSection3.visible = false
-	editSection1.visible = false
+	if applied isnt 1
+		editSection2.visible = false
+		editSection3.visible = false
+		editSection1.visible = true
+	else
+		editSection2.visible = false
+		editSection3.visible = true
+		editSection1.visible = false

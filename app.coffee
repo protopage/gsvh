@@ -19,6 +19,42 @@ scroll.mouseWheelEnabled = true
 # 	scroll.size = Canvas.size
 scroll.content.draggable.enabled = false
 
+
+# Make a scroll bar
+# ------------------------------------------------------------
+
+scrollBar = new Layer
+	x: Align.right
+	width: 24
+	height: Screen.height * (Screen.height / scroll.content.height)
+	backgroundColor: ""
+
+scrollBarShape = new Layer
+	parent: scrollBar
+	x: 8
+	y: 8
+	width: scrollBar.width - 16
+	height: scrollBar.height - 16
+	backgroundColor: "#8A8A8A"
+	borderRadius: 100
+
+
+scroll.onMove ->
+	progress = scroll.scrollY / (scroll.content.height - scroll.height)
+	scrollBar.y = progress * (Screen.height - scrollBar.height)
+
+scrollBar.draggable.enabled = true
+scrollBar.draggable.horizontal = false
+scrollBar.draggable.constraints =
+	height: Screen.height
+
+scrollBar.onDrag ->
+	progress = scrollBar.y / (Screen.height - scrollBar.height)
+	scroll.scrollY = progress * (scroll.content.height - scroll.height)
+
+
+
+
 editState.visible = false
 
 #Toolbar Hovers and Clicks
@@ -232,3 +268,19 @@ versionActive.onClick ->
 		editSection2.visible = false
 		editSection3.visible = true
 		editSection1.visible = false
+
+
+
+# Affordances
+
+affordances = [backZone, version1Zone, versionActive, editClick1, btnCancel1, btnCancel2, btnApply1, btnApply2, versionClick, backZone, editClick, toolbarEditBack, sectionControl, sectionControlEdit]
+
+
+createAffordances = (index) ->
+	affordances[index].onMouseOver ->
+		document.body.style.cursor = "pointer"
+	affordances[index].onMouseOut ->
+		document.body.style.cursor = "auto"
+
+for i in [0...affordances.length]
+	createAffordances(i)
